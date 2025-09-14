@@ -3,22 +3,21 @@
   "settings": {
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
-
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.rulers": [80, 100],
-
+    "editor.rulers": [
+      80,
+      100
+    ],
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true,
       "source.organizeImports": true
     },
-
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-
     "files.exclude": {
       "**/node_modules": true,
       "**/dist": true,
@@ -29,28 +28,22 @@
       "**/dist": true,
       "**/build": true
     },
-
     "javascript.format.enable": false,
     "prettier.requireConfig": true,
     "prettier.singleQuote": true,
     "prettier.trailingComma": "es5",
-
     "eslint.validate": [
       "javascript",
       "javascriptreact",
       "typescript",
       "typescriptreact"
     ],
-
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
     },
-
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-
     "telemetry.telemetryLevel": "off"
   },
   "extensions": {
