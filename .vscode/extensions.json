@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "PKief.material-icon-theme",
+    "aaron-bond.better-comments",
+    "eamodio.gitlens",
+    "ritwickdey.LiveServer",
+    "EditorConfig.EditorConfig"
+  ]
+}
