@@ -1,0 +1,80 @@
+{
+  "name": "Python Development",
+  "settings": {
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [79, 100],
+
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.mypy_cache": true,
+      "**/.pytest_cache": true,
+      "**/.venv": true,
+      "**/env": true,
+      "**/venv": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "search.exclude": {
+      "**/__pycache__": true,
+      "**/.mypy_cache": true,
+      "**/.pytest_cache": true,
+      "**/.venv": true,
+      "**/env": true,
+      "**/venv": true,
+      "**/.ipynb_checkpoints": true
+    },
+
+    "python.defaultInterpreterPath": "C:/Users/YourUser/AppData/Local/Programs/Python/Python312/python.exe",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+
+    "jupyter.askForKernelRestart": false,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "telemetry.telemetryLevel": "off"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.black-formatter",
+      "ms-python.pylint",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "ms-toolsai.vscode-jupyter-cell-tags",
+      "ms-toolsai.vscode-jupyter-slideshow",
+      "ms-python.vscode-pylance",
+      "ms-pyright.pyright",
+      "kevinrose.vsc-python-indent",
+      "njpwerner.autodocstring",
+      "ms-azuretools.vscode-docker",
+      "eamodio.gitlens",
+      "PKief.material-icon-theme",
+      "aaron-bond.better-comments",
+      "streetsidesoftware.code-spell-checker",
+      "editorconfig.editorconfig"
+    ]
+  }
+}
